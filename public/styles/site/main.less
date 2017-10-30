@@ -1,0 +1,101 @@
+@font-face {
+font-family: "KG No Regrets";
+src: 
+url("/fonts/KGNoRegretsSketch.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Janda Elegant Handwriting";
+src: 
+url("/fonts/JandaElegantHandwriting.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Janda Closer To Free";
+src: 
+url("/fonts/JandaCloserToFree.ttf") format("truetype");
+}
+a.internal, a.internal:visited {
+	color: @color;
+}
+
+.title, .section-title {
+	color: @color;
+	corner-radius: 3px;
+	padding: 10px;
+}
+
+.section-title {
+	text-align: center;
+	background-color: @bgcolor;
+
+}
+
+h1 {
+	font-size: 40px;
+	font-family: "Janda Elegant Handwriting";
+}
+
+h2 {
+	font-size: 36px;
+	font-family: "Janda Elegant Handwriting";
+}
+
+h3 {
+	font-size: 32px;
+	font-family: "Janda Elegant Handwriting";
+}
+
+h4 {
+	font-size: 28px;
+	font-family: "Janda Elegant Handwriting";
+}
+
+h5 {
+	font-size: 24px;
+	font-family: "Janda Elegant Handwriting";
+}
+
+p {
+	font-size: 16px;
+	font-family: "Janda Closer To Free";
+}
+@media (min-width: 768px) {
+	div.section {
+		border: 1px solid @activebgcolor;
+		padding: 0;
+		> h3 {
+			margin: 0 0 10px 0;
+		}
+		margin-bottom: 10px;
+		> p {
+			margin-left: 10px;
+		}
+	}
+}
+
+#instagram {
+	text-align:center;
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	h4 {
+		font-size: 28px;
+	}
+
+	h5 {
+		font-size: 24px;
+	}
+}
